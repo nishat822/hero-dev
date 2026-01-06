@@ -115,29 +115,32 @@ nav .manu a{text-decoration: none;
 #skills{
     padding-top: 130px;
 }
-#skills .skills-content{
+#skills .skills-container{
     max-width: 1140px;
     width: 71%;
     margin: 0px auto;
+    
 }
-#skills .skills-content .skills-box{
-display: flex;
-gap: 24px;
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+
 }
-#skills .skills-content .skills-box .skills-card{
+#skills .skills-container .skill-box .skills-card{
     padding: 30px;
     max-width: 267px;
-    box-shadow: 0px 6px 50px 0px rgb(172, 169, 169)
-}
-#skills .skills-content .skills-box .skills-card img{
+
+   box-shadow: 0px 6px 50px 0px rgb(172, 169, 169)
+    }
+#skills .skills-container .skill-box .skills-card img{
     max-width: 44px;
     margin-bottom: 30px;
 }
-#skills .skills-content .skills-box .skills-card h3{
+#skills .skills-container .skill-box .skills-card h3{
     font-size: 20px;
     color: #181818;
     margin-bottom: 30px;}
-#skills .skills-content .skills-box .skills-card p{
+#skills .skills-container .skill-box .skills-card p{
      line-height: 28px;
         font-size: 16px;
         color: #757575; }
